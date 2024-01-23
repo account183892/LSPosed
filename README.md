@@ -25,7 +25,7 @@ Android 8.1 ~ 14
 
 ## Download
 
-- Updates are published by the commit and may have bugs, please check [Github Actions] All dependabot updates are merged immediatly if possible.
+- Updates are published by the commit and may have bugs, please check [Github Actions] All dependabot updates are merged immediatly if possible. As of now you will have to compile the repo your self. This fork is not ready to be used on a Android device.
 
 Note: debug builds are only available in Github Actions.
 
