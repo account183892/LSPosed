@@ -7,6 +7,8 @@
 A Riru / Zygisk module trying to provide an ART hooking framework which delivers consistent APIs with the OG Xposed, leveraging LSPlant hooking framework.
 
 > Xposed is a framework for modules that can change the behavior of the system and apps without touching any APKs. That's great because it means that modules can work for different versions and even ROMs without any changes (as long as the original code was not changed too much). It's also easy to undo. As all changes are done in the memory, you just need to deactivate the module and reboot to get your original system back. There are many other advantages, but here is just one more: multiple modules can do changes to the same part of the system or app. With modified APKs, you have to choose one. No way to combine them, unless the author builds multiple APKs with different combinations.
+> This fork contains changes that improves the enviroment of LSPosed.
+> It is also an attempt to use dependabot to try as a final effort to ensure LSPosed works on versions of Android above 14.
 
 ## Supported Versions
 
@@ -23,15 +25,14 @@ Android 8.1 ~ 14
 
 ## Download
 
-- For stable releases, please go to [Github Releases page](https://github.com/LSPosed/LSPosed/releases)
-- For canary build, please check [Github Actions](https://github.com/LSPosed/LSPosed/actions/workflows/core.yml?query=branch%3Amaster)
+- Updates are published by the commit and may have bugs, please check [Github Actions] All dependabot updates are merged immediatly if possible.
 
 Note: debug builds are only available in Github Actions.
 
 ## Get Help
 **Only bug reports from **THE LATEST DEBUG BUILD** will be accepted.**
-- GitHub issues: [Issues](https://github.com/LSPosed/LSPosed/issues/)
-- (For Chinese speakers) 本项目只接受英语**标题**的issue。如果您不懂英语，请使用[翻译工具](https://www.deepl.com/zh/translator)
+- GitHub issues is how to report
+
 
 ## For Developers
 
